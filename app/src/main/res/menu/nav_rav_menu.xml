@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/click_delete"
+        android:icon="@drawable/delete_48"
+        android:orderInCategory="100"
+        android:title="@string/click_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/long_delete"
+        android:icon="@drawable/delete_48"
+        android:orderInCategory="100"
+        android:title="@string/long_press_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/swap_delete"
+        android:icon="@drawable/delete_48"
+        android:orderInCategory="100"
+        android:title="@string/swap_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tab_data_move"
+        android:icon="@drawable/tab_48"
+        android:orderInCategory="100"
+        android:title="@string/tab_data_send"
+        app:showAsAction="never" />
+</menu>

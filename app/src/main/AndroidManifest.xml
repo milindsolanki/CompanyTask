@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wayToCode">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".videoPlayer.VideoPlayerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intent.IntentActivity"/>
+        <activity android:name=".socialMediaFB.SocialMediaFbActivity" />
+        <activity android:name=".sherePreftask.SherePrefMainSecondActivity" />
+        <activity android:name=".sherePreftask.SherePferRegActivity" />
+        <activity android:name=".sherePreftask.SherePrefMainActivity" />
+        <activity android:name=".sherePreftask.SherePrefLoginActivity" />
+        <activity android:name=".sherePreftask.SplashActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".sheredpref.SherePrefSecondActivity" />
+        <activity android:name=".sheredpref.SherePrefActivity" />
+        <activity android:name=".checkInternetPermission.CheckInternetPermissionActivity" />
+        <activity android:name=".navAndRec.NavAndRecActivity" />
+        <activity
+            android:name=".menu.OptionMenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".menu.PopMenuActivity" />
+        <activity
+            android:name=".tabLayout.TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragmentRecycleView.FrgRecyclerViewActivity" />
+        <activity android:name=".recyclerViewTaskTwo.RvIntentTaskTwoActivity" />
+        <activity android:name=".recyclerViewTaskTwo.RVTaskTwoActivity" />
+        <activity android:name=".recyclerViewTask.RecyclerViewTaskActivity" />
+        <activity android:name=".recyclerViewClick.RecyclerViewIntentActivity" />
+        <activity android:name=".recyclerViewClick.RecyclerViewClickActivity" />
+        <activity android:name=".recyclerView.RecyclerVIewActivity" />
+        <activity android:name=".bottomOrNavigation.BottomOrNavigationActivity" />
+        <activity
+            android:name=".navigation.NavigationDarwarActivity"
+            android:label="@string/title_activity_navigation_darwar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".material.BasicActivity"
+            android:label="@string/title_activity_basic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".whatsappFrg.WhatsAppFrgActivity" />
+        <activity android:name=".fragment.FragmentViewActivity" />
+        <activity
+            android:name=".relative.ReservationsActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".relative.ItemDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".relative.Home_Relative_Activity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".relative.MenuActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".intentTask.RegTaskActivity" />
+        <activity android:name=".intentTask.LoginTaskActivity" />
+        <activity android:name=".homeActivity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
